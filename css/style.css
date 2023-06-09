@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Bitter', serif;
+    font-size: 1.25em;  /*20px*/
+    line-height: 1.75em;
+}
+
+header{
+    background-color: #5f9ea0;
+}
+footer{
+    background-color: brown;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+    /*background-color: rgb(19, 175, 79);*/
+    
+}
+
+h1{
+    font-size: 1.25rem; /*20px*/
+    text-align:center;
+    text-transform: uppercase;
+    
+}
+
+.logo{
+    width: 2.5rem;
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.avatar{
+    margin: 0 auto;
+    max-width: 320px;
+    width: 80%;
+    display: block;
+}
+
+.main-nav{
+    list-style: none;
+    text-align: center
+}
+
+.nav-item{
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+}
+
+.textg{
+    text-decoration: none;
+    color: #5f9ea0;
+}
+
+dd{
+    background-color: rgba(21, 154, 187, 0.1);
+}
+
+.line {
+    border-bottom: 10px solid rgba(12, 41, 136,0.5); /* Параметры линии */
+   }
